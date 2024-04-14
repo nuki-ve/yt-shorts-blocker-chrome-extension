@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Shorts Blocker",
+  "version": "1.0",
+  "description": "Avoid distractions removing all Youtube Shorts recomendations",
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["./content.js"],
+      "css": ["./inject.css"],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ]
+}

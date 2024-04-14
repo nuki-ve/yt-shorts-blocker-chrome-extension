@@ -1,0 +1,5 @@
+.shortTerminator{
+    & ytd-reel-shelf-renderer, & #dismissible{
+    display: none;
+  }
+}

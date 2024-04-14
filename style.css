@@ -1,0 +1,61 @@
+body{
+  width: 300px;
+  padding: 10px;
+  font-size: 0.7rem;
+  color: #fff;
+  background-color: #212529;
+}
+
+img{
+  display: block;
+  margin: auto;
+
+  &.grayscale{
+    filter: grayscale();
+  }
+}
+
+h1, h3{
+  text-wrap: nowrap;
+  text-align: center;
+  line-height: 0;
+}
+
+h3{
+  padding-top: 9px;
+}
+
+button{
+  margin: auto;
+  display: block;
+  border-radius: 30px;
+  width: 130px;
+  padding: 3px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+a{
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+
+  &:hover{
+    color: #09f;
+  }
+
+  &#nukidev{
+    left: 0;
+  }
+
+  &#github{
+    right: 0;
+  }
+}
+
+div{
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
