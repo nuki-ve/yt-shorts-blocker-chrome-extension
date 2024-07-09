@@ -21,4 +21,4 @@ By default, it remove all of the Shorts recomendations once you enter in YouTube
 Click on the extension and click the Block/Unblock button to disable it. Thats it.
 
 -------------
-Created By: ***nukidev***
+Created By: ***nukidev @nuki-ve***
